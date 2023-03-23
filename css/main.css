@@ -52,6 +52,7 @@ ul {
 
 /* info */
 
+
 .info {
     padding-top: 40px;
 }
@@ -94,14 +95,14 @@ ul {
 
 .info__md-icon{
     position: absolute;
-    top: 0;
-    left: -30px;
+    top: -2%;
+    left: -4%;
 }
 
 .info__md-icon-star{
     position: absolute;
-    top: 0;
-    left: 49%;
+    top: -2%;
+    left: -4%;
 }
 
 .info__md-card{
@@ -113,6 +114,8 @@ ul {
     border-radius: 8px;
     align-items: center;
     margin-top: 24px;
+    row-gap: 31px;
+    position: relative;
 }
 
 .info__md-title{
@@ -135,6 +138,29 @@ ul {
     color: #46474E;
     margin-top: 17px;
     padding-bottom: 88px;
+}
+
+.info__md-icon-collection{
+    position: absolute;
+    top: -20px;
+    right: -30px;
+}
+
+.info__md-title-1 ,
+.info__md-title-2{
+    max-width: 238px;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    padding-top: 65px;    
+}
+
+.info__md-title-2{
+    max-width: 412px;
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 /* info */
